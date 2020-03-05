@@ -6,9 +6,9 @@ namespace ClassIntro
     {
         static void Main(string[] args)
         {
-            Car myFordBronco = new Car(40000, "Ford", "Bronco", 1982);
+            Car myFordBronco = new Car(0, "Ford", "Bronco", 1982);
 
-            Car mySubaru = new Car(40000)
+            Car mySubaru = new Car(0)
             {
                 Make = "Subaru",
                 Model = "Forrester",
